@@ -1,0 +1,35 @@
+import React from 'react'
+import Gallery from './Gallery';
+
+
+const About = () => {
+return (
+<section className="wrapper">
+    <div className="about-me">
+        <div className="about-me-header">
+            <h2>about me</h2>
+        </div>
+        <div className="my-story">
+            <div className="my-story-header">
+                <h3>My Story!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ea. Cumque consequatur dicta perspiciatis quam saepe? Tempore nihil minus atque perferendis mollitia vel. Repudiandae maxime, saepe error reiciendis harum voluptatum, necessitatibus optio accusantium ex corporis consectetur, neque quia id illo!</p> 
+            </div>
+            <div className="my-story-buttons">
+                <button>Download CV</button>
+                <button>Hire me!</button>
+            </div>
+        </div>
+        <div className="my-philosophy">
+            <div className="my-philosophy-header">
+                <h3>my philosophy</h3>
+            </div>
+            <div className="my-philosophy-paragrapgh">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, id ullam! Consectetur illum earum optio numquam sapiente, ullam voluptate eveniet iste minus, sed officiis aspernatur perspiciatis laudantium aperiam suscipit temporibus! Optio nobis minima aliquid libero neque modi explicabo doloremque id.</p>
+            </div>
+        </div>
+    </div>
+    <Gallery/>
+</section>
+)
+}
+export default About
