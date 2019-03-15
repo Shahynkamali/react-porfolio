@@ -1,0 +1,48 @@
+.resume{
+    border-top:5px solid $accent;
+    border-left:5px solid $accent;
+    @include flexC;
+    background:$third;
+    justify-content: space-evenly;
+    height:100%;
+
+    .resume-header{
+        border:$bo;
+        text-align:center;
+        h2{
+            font-family: $font1;
+            text-transform: uppercase;
+        }
+    }
+    .resume-content{
+        @include flexR;
+        border:$bo;
+        justify-content: space-evenly;
+        
+        .resume-block{
+            @include flexC;
+            justify-content: center;
+            border:$bo;
+            
+
+            .resume-block-title{
+                @include flexR;
+                justify-content: center;
+                width:100%;
+                h3{
+                    font-size: 1.3rem;
+                    font-family:$font1;
+                    border:1px solid red;
+                    
+                }
+                .fas{
+                    border:1px solid black;
+                    justify-content: center;
+                }
+            }
+
+        }
+    }
+
+
+}

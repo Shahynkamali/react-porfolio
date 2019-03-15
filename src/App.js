@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Header/>
         <div className="main">
           <Nav/> 
+          <Route path='/'  exact component={Gallery}/>
           <Route path='/about' component={About}/>
           <Route path='/projects' component={Projects}/>
           <Route path='/resume' component={Resume}/>
