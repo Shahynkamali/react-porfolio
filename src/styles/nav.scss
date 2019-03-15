@@ -1,0 +1,33 @@
+nav{
+    
+    width:20%;
+    ul{
+        @include flexC;
+     
+        height:100%;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        background: $third;
+        width:100%;
+        
+
+    }
+    li{
+      
+        padding:10px 20px;
+        width: 100%;
+        text-align: center;
+        
+
+        .link{
+            text-decoration: none;
+            color:$primary;
+            font-family: $font1;
+            text-transform: uppercase;
+            font-weight: bold;
+            width:100%;
+            
+        }
+    }
+}

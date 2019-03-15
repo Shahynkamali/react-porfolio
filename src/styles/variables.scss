@@ -1,23 +1,19 @@
 $primary: #525659;
 $secondary: #000000;
 $third: #dddddd;
+$accent: #08A300;
 $font1: 'Dosis', sans-serif;
 $font2: 'Source Sans Pro', sans-serif;
-$border: 1px solid black;
+$bo: 1px solid black;
 
 
 @mixin flexC {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+   
 }
 @mixin flexR{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 
 }
