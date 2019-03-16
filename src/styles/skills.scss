@@ -1,0 +1,8 @@
+.my-skills{
+     height:100%;
+     @include flexC;
+     justify-content: center;
+     background:$third;
+     border-top:5px solid $accent;
+     border-left:5px solid $accent;
+}
