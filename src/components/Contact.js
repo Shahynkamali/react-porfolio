@@ -9,26 +9,33 @@ const Contact = () => {
             <h2>contact me</h2>
         </div>
         <form action="" method="POST" name="contactForm">
-            <div className="input-name">
-                <label htmlFor="user-name">
-                    <i className="fa fa-lg fa-fw fa-user"></i>
-                </label>
-                <input name="name" id="user-name" type="text" placeholder="Enter your name"/>
-            </div>
-            <div className="input-email">
-                <label htmlFor="user-emaill">
-                    <i className="fa fa-lg fa-fw fa-envelope"></i>
-                </label>
-                <input name="email" id="user-email" type="email" placeholder="Enter your email"/>
-            </div>
-            <div className="input-textarea">
+        <div className="form-left">
+            <fieldset>
+            <input id="first" type="text" name="first" required/>
+            <label htmlFor="first">name</label>
+            <div className="after"></div>
+            <i className="fa fa-lg fa-fw fa-user"></i>
+            </fieldset>
+            <fieldset>
+                <input id="last" type="text" name="last" required/>
+                <label htmlFor="last">email</label>
+                <div className="after"></div>
+                <i className="fa fa-lg fa-fw fa-envelope"></i>
+            </fieldset>
+        </div>
+        <div className="form-right">
+            <fieldset>
+                <div className="input-textarea">
                 <textarea name="feedback" id="userMessage" rows="10" placeholder="Enter your message"></textarea>
-            </div>
-            <input id="submit-button" className="submit-button" type="submit" value="Send"/>
+                <button id="submit-button" className="submit-button" type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </div>
         </form>
     </div>
 </section>
     
+     
   )
 }
 

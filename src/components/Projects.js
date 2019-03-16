@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import weather from '../assets/weather.png';
 import restaurant from '../assets/restaurant.png';
 import planted from '../assets/planted.png';
