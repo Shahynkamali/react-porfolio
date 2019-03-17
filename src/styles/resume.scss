@@ -7,7 +7,7 @@
     height:100%;
 
     .resume-header{
-        border:$bo;
+        
         text-align:center;
         h2{
             font-family: $font1;
@@ -16,29 +16,54 @@
     }
     .resume-content{
         @include flexR;
-        border:$bo;
         justify-content: space-evenly;
+        width:100%;
         
         .resume-block{
             @include flexC;
             justify-content: center;
-            border:$bo;
+            height:100%;
+            width:30%;
+            
+            
+            
             
 
             .resume-block-title{
-                @include flexR;
+                @include flexC;
                 justify-content: center;
+                align-items: center;
                 width:100%;
+
+                i{
+                    font-size: 40px;
+                }
                 h3{
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                     font-family:$font1;
-                    border:1px solid red;
+                   
+                    text-transform: uppercase;
+                    width:100%;
+                    text-align: center;
+                    font-weight:bold;
                     
                 }
                 .fas{
-                    border:1px solid black;
+                   
                     justify-content: center;
+                    
+
+                    
                 }
+                span{
+                    color:$accent;
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                }
+            }
+            .resume-block-content{
+                text-align: center;
             }
 
         }

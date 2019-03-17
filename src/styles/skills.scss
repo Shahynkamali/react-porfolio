@@ -5,4 +5,47 @@
      background:$third;
      border-top:5px solid $accent;
      border-left:5px solid $accent;
+
+     .my-skills-header{
+          text-align: center;
+
+          h2{
+               font-family: $font1;
+               text-transform: uppercase;
+               color:$secondary;
+          }
+     }
+     .skill-gallery{
+          @include flexR;
+          width:100%;
+
+          .skills-row{
+               @include flexR;
+               width:calc(100% /3);
+               margin:40px;
+               justify-content: space-between;
+               
+
+               figure{
+                    width:30%;
+                    text-align: center;
+                    background:$third;
+
+                    figcaption{
+                         background:$third;
+                         color:$accent;
+                         font-family: $font2;
+                         font-weight: bold;
+                         text-transform: uppercase;
+                         width:100%;
+                         border:3px solid white;
+                         margin-top:10px;
+
+                    }
+               }
+
+          }
+
+     }
+
 }

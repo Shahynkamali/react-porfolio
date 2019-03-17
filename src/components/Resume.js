@@ -12,30 +12,32 @@ const Resume = () => {
             <div className="resume-block">
                 <div className="resume-block-title">
                     <i className="fas fa-graduation-cap"></i>
-                    <h3>HackerYou College of Technology </h3>
+                    <h3>Accelerated Web Development </h3>
+                    <span>July 2018</span>
                 </div>
                 <div className="resume-block-content">
-                    <span>July 2018</span> <p>CONTINUING EDUCATION
-                    Accelerated Web Development</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, esse?</p>
                 </div>
             </div>
             <div className="resume-block">
                 <div className="resume-block-title">
                     <i className="fas fa-graduation-cap"></i>
-                    <h3>HackerYou College of Technology </h3>
+                    <h3>JavaScript Fundamentals</h3>
+                    <span>October 2018</span>
                 </div>
                 <div className="resume-block-content">
-                    <span>October 2018</span> <p>CONTINUING EDUCATION
-                    JavaScript Fundamentalst</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, commodi.
+                    </p>
                 </div>
             </div>
             <div className="resume-block">
                 <div className="resume-block-title">
                     <i className="fas fa-graduation-cap"></i>
-                    <h3>HackerYou College of Technology </h3>
+                    <h3>Web Development Immersive (Bootcamp)</h3>
+                    <span>January 2019</span>
                 </div>
                 <div className="resume-block-content">
-                    <span>January 2019</span> <p>Web Development Immersive (BootCamp) </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, optio? </p>
                 </div>
             </div>
         </div>
