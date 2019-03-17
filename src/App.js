@@ -11,6 +11,15 @@ import Gallery from './components/Gallery';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
+  state = { isVisible: false };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        isVisible: true
+      });
+    }, 4500);
+  }
   render() {
     return (
       <Router>
@@ -18,7 +27,9 @@ class App extends Component {
         <Header/>
         <div className="main">
           <Nav/> 
+          {this.state.isVisible === true &&
           <Route path='/'  exact component={Gallery}/>
+          }
           <Route path='/about' component={About}/>
           <Route path='/projects' component={Projects}/>
           <Route path='/resume' component={Resume}/>

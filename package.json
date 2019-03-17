@@ -6,6 +6,8 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-mdl": "^1.11.0",
+    "react-pose": "^4.0.8",
+    "react-pose-text": "^3.1.0",
     "react-router": "^4.3.1",
     "react-scripts": "2.1.8"
   },
