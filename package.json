@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
     "react": "^16.8.4",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.4",
     "react-mdl": "^1.11.0",
     "react-pose": "^4.0.8",

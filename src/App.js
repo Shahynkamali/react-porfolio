@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import Gallery from './components/Gallery';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -18,7 +17,7 @@ class App extends Component {
       this.setState({
         isVisible: true
       });
-    }, 4500);
+    }, 3000);
   }
   render() {
     return (
@@ -28,9 +27,8 @@ class App extends Component {
         <div className="main">
           <Nav/> 
           {this.state.isVisible === true &&
-          <Route path='/'  exact component={Gallery}/>
+          <Route path='/'  exact component={About}/>
           }
-          <Route path='/about' exact component={About}/>
           <Route path='/projects'  component={Projects}/>
           <Route path='/resume'  component={Resume}/>
           <Route path='/skills' component={Skills}/>

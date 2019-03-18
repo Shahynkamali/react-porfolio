@@ -6,8 +6,8 @@ import posed from 'react-pose';
 const Sidebar = posed.ul({
   open: {
     x: '0%',
-    delay:2000,
-    delayChildren: 2100,
+    delay:1000,
+    delayChildren: 900,
     staggerChildren: 300
   },
   closed: { x: '-100%', delay: 300 }
@@ -33,8 +33,7 @@ render(){
   return (
     <nav>
     <Sidebar className="sidebar" pose={isOpen ? 'open' : 'closed'}>
-        <Item><NavLink exact className="link" activeClassName="active" to="/">Home</NavLink></Item>
-        <Item><NavLink exact className="link" activeClassName="active" to='/about'>About</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to="/">About</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to="/resume">Resume</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink></Item>

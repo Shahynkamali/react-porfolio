@@ -1,7 +1,7 @@
 .my-skills{
      @include flexC;
      @include inWrapper;
-     justify-content: flex-start;
+     justify-content: center;
      
      .header{
           @include header;

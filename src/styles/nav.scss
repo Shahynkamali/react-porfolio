@@ -1,5 +1,6 @@
 .active{
     color:$accent !important;
+    
 }
 .active::after {
     content: '';
@@ -28,7 +29,8 @@ nav{
 
     li{
         width: 100%;
-        text-align: center;
+        text-align: left;
+        padding-left: 30px;
         
         
         
@@ -57,7 +59,7 @@ nav{
         }
 
         .link:hover::after {
-            width: 100%;
+            width: 40%;
         }
         a.link:focus{
             color:$accent;

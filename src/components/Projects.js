@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
+import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import weather from '../assets/weather.png';
 import restaurant from '../assets/restaurant.png';
 import planted from '../assets/planted.png';
 import food from '../assets/food.png';
 import joke from '../assets/joke.png';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 class Projects extends Component {
     state ={
@@ -104,7 +106,10 @@ if(this.state.activeTab === 0){
 }
 render() {
     return (
+        
+  
     <div className="catergory-tabs">
+    <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' duration={2}>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
         <Tab>React</Tab>
         <Tab>Jquery</Tab>
@@ -115,6 +120,7 @@ render() {
                 <div className="content">{this.toggleCatagories()}</div>
                 </Cell>
             </Grid>
+    </ScrollAnimation>
     </div>
     )
 }

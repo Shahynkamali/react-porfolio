@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import posed from "react-pose";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const Content = posed.div({
     closed: { height: 0 },
@@ -32,6 +34,7 @@ class Resume extends Component {
         <React.Fragment>
             <section className="wrapper">
                 <div className="resume">
+                <ScrollAnimation animateIn='fadeIn' duration={2} animateOut='fadeOut'>
                     <div className="header">
                         <h2>my resume</h2>
                     </div>
@@ -54,6 +57,7 @@ class Resume extends Component {
             </React.Fragment>
         ))}
                     </div>
+                    </ScrollAnimation>
                 </div>
             </section>
         </React.Fragment>

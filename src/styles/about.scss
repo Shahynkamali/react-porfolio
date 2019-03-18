@@ -1,8 +1,10 @@
 .about-me{
     @include flexC;
     @include inWrapper;
+    justify-content: space-evenly;
+    overflow: hidden;
     @include tablet-small{
-        justify-content: flex-start;
+        justify-content: space-evenly;
     }
 
     .header{
@@ -11,18 +13,24 @@
     }
     .stories{
         @include flexR;
-        width:100%;
+        width:90%;
+        margin:0 auto;
+        height: 50%;
+
         @include tablet-small{
             flex-direction: column;
             height:100%;
             align-items: center;
         }
 
-        .my-story{
+        .about-me-image{
             width:50%;
             @include flexC;
             height:100%;
-            align-items: center;
+            justify-content: center;
+            img{
+                width:100%;
+            }
             @include tablet-small{
                 width:80%;
             }
@@ -68,6 +76,8 @@
         .my-philosophy{
             width:50%;
             height:100%;
+            @include flexC;
+            justify-content: center;
 
             .my-philosophy-header{
                 @include flexC;

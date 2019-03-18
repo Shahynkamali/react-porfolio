@@ -25,17 +25,18 @@ const charPoses = {
 const Header = () =>{
     return (
     <header>
-        <div className="title">
             <Sidebar className="sidebar" initialPose="exit" pose="enter">
                 <div className="header-title">
                     <h1><SplitText charPoses={charPoses}>shahyn kamali</SplitText></h1>
-                </div>
-                <div className="header-desc">
                     <h5><SplitText charPoses={charPoses}>I am a front end developer</SplitText></h5>
                 </div>
+                <div className="social">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shahyn-kamali-33019a57/"><i alt="linkedin page" className="fab fa-linkedin"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shahynsweb/?hl=en"> <i alt="instagram page" className="fab fa-instagram"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/TheSommWhoCodes?lang=en"><i alt="twitter page" className="fab fa-twitter-square"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@shahynkamali"><i alt="medium page" className="fab fa-medium"></i></a>
+                </div>
             </Sidebar>
-            
-        </div>   
     </header>
     )
 }
