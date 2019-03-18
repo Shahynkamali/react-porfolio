@@ -26,12 +26,15 @@ const Header = () =>{
     return (
     <header>
         <div className="title">
-            <div className="title-header">
-                <Sidebar className="sidebar" initialPose="exit" pose="enter">
-                <h1><SplitText charPoses={charPoses}>shahyn kamali</SplitText></h1>
-                <p><SplitText charPoses={charPoses}>I am a front end developer</SplitText></p>
-                </Sidebar>
-            </div>
+            <Sidebar className="sidebar" initialPose="exit" pose="enter">
+                <div className="header-title">
+                    <h1><SplitText charPoses={charPoses}>shahyn kamali</SplitText></h1>
+                </div>
+                <div className="header-desc">
+                    <h5><SplitText charPoses={charPoses}>I am a front end developer</SplitText></h5>
+                </div>
+            </Sidebar>
+            
         </div>   
     </header>
     )

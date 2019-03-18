@@ -1,6 +1,13 @@
 .active{
     color:$accent !important;
 }
+.active::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: $accent;
+}
 
 nav{
     background: $third;
@@ -51,6 +58,10 @@ nav{
 
         .link:hover::after {
             width: 100%;
+        }
+        a.link:focus{
+            color:$accent;
+            outline:none;
         }
         }
     }

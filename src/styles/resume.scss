@@ -7,9 +7,21 @@
 .resume{
     @include flexC;
     @include inWrapper;
+    @include mobile{
+        justify-content: flex-start;
+    }
 
     .header{
         @include header;
+        @include mobile-medium{
+            h2{
+                margin:0;
+                overflow:hidden;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            
+            }
+        }
     }
     .resume-content{
         @include flexR;
@@ -18,8 +30,9 @@
         height: 300px;
         @include mobile-medium{
             flex-direction:column;
-            justify-content: flex-start;
+            justify-content: flex-end;
             align-items: center;
+            height:auto;
             .resume-block{
                 width:70%;
                 height:auto;

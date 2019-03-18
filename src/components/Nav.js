@@ -34,11 +34,11 @@ render(){
     <nav>
     <Sidebar className="sidebar" pose={isOpen ? 'open' : 'closed'}>
         <Item><NavLink exact className="link" activeClassName="active" to="/">Home</NavLink></Item>
-        <Item><NavLink className="link" activeClassName="active" to='about'>About</NavLink></Item>
-        <Item><NavLink className="link" activeClassName="active" to="projects">Projects</NavLink></Item>
-        <Item><NavLink className="link" activeClassName="active" to="resume">Resume</NavLink></Item>
-        <Item><NavLink className="link" activeClassName="active" to='skills'>Skills</NavLink></Item>
-        <Item><NavLink className="link" activeClassName="active" to='contact'>Contact</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to='/about'>About</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to="/resume">Resume</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to='/contact'>Contact</NavLink></Item>
     </Sidebar>
     </nav>
   

@@ -10,7 +10,6 @@ const Skills = () =>{
     <div className="my-skills">
         <div className="header">
             <h2>my skills</h2>
-            <p>a collection of lanuages, frameworks and libraries i have learned over the year</p>
         </div>
         <div className="skill-gallery">
             <div className="skills-row">

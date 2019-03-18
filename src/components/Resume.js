@@ -37,7 +37,7 @@ class Resume extends Component {
                     </div>
                     <div className="resume-content">
         {data.map(({ title, content, date }, i) => (
-        <React.Fragment>
+        <React.Fragment key={i}>
                     <div className="resume-block">
                     <div className="resume-block-title">
                         <h3>

@@ -5,41 +5,43 @@
     background:$third;
     border-top:5px solid $accent;
     border-left:5px solid $accent;
-   
     
 
     .gallery-row{
         display:grid;
         grid-gap:20px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
         grid-auto-rows: 350px;
         margin:0 20px;
         @include desktop{
-           grid-auto-rows: 200px;
+            grid-auto-rows: 230px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         }
         @include tablet{
             grid-auto-rows: 150px;
+            grid-auto-columns: 300px;
         }
 
 
 
         .gallery-img{
             position: relative;
-           
-      
 
             img{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
                 filter: $third;
+                transition: all .8s ease-in-out;
                 -webkit-filter: grayscale(1);
                 -webkit-transition: all .8s ease-in-out;
             }
+
             img:hover {
                 filter: none;
                 -webkit-filter: grayscale(0);
                 -webkit-transform: scale(1.01);
+                transform: scale(1.01);
             }
         
             h4{
