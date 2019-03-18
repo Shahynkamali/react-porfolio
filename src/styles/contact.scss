@@ -1,19 +1,10 @@
 .form{
-    height:100%;
+    @include inWrapper;
     @include flexC;
-    justify-content: center;
-    background:$third;
-    border-top:5px solid $accent;
-    border-left:5px solid $accent;
+   
 
-    .form-header {
-        width: 100%;
-        text-align: center;
-
-        h2 {
-            font-family: $font1;
-            text-transform: uppercase;
-        }
+    .header {
+        @include header;
 
     }
     form {
@@ -24,14 +15,23 @@
         height:50%;
         justify-content: center;
         align-items: center;
+        @include mobile-medium {
+            margin-top: 18%;
+            flex-direction: column;
+            width:100%;
+            .after{
+                width:100%;
+            }
+            
+        }
         
 
         .form-left, .form-right{
             width:50%;
             @include flexC;
             align-content:center;
-         
             height:100%;
+
         }
         
     }

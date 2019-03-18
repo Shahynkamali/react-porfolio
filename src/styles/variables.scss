@@ -17,3 +17,66 @@ $bo: 1px solid black;
     flex-direction: row;
 
 }
+@mixin inWrapper{
+    justify-content: center;
+    background:$third;
+    border-top:5px solid $accent;
+    border-left:5px solid $accent;
+    height:100%;
+    width:100%;
+}
+
+@mixin header{
+    width:100%;
+    text-align:center;
+
+    h2 {
+        font-family: $font1;
+        text-transform: uppercase;
+    }
+    }
+
+
+
+$mobile: 400px;
+$mobile-medium : 500px;
+$mobile-large: 600px;
+$tablet-small: 700px;
+$tablet: 900px;
+$desktop: 1200px;
+
+
+@mixin mobile-medium {
+    @media (max-width: #{$mobile-medium}) {
+        @content;
+    }
+}
+@mixin tablet-small {
+    @media (max-width: #{$tablet-small}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin mobile-large {
+    @media (max-width: #{$mobile-large}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width: #{$desktop}) {
+        @content;
+    }
+}

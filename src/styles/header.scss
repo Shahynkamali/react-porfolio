@@ -1,4 +1,6 @@
-
+header{
+    height:20vh;
+}
 .title{
     @include flexR;
     text-align: left;
@@ -17,6 +19,19 @@
             align-content: center;
             align-items: center;
             width:100%;
+        }
+        @include tablet{
+            h1{
+                font-size:2rem;
+            }
+            .sidebar{
+                flex-direction: column;
+            }
+        }
+        @include mobile{
+            h1{
+                font-size:1.3rem;
+            }
         }
     }
 

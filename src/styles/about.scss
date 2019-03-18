@@ -1,31 +1,31 @@
 .about-me{
-    height:100%;
     @include flexC;
-    justify-content: center;
-    background:$third;
-    border-top:5px solid $accent;
-    border-left:5px solid $accent;
+    @include inWrapper;
+    @include tablet-small{
+        justify-content: flex-start;
+    }
 
-    .about-me-header{
-        width:100%;
-        text-align:center;
-
-        h2{
-            font-family:$font1;
-            text-transform: uppercase;
-        }
+    .header{
+        @include header;
         
     }
     .stories{
         @include flexR;
         width:100%;
-  
+        @include tablet-small{
+            flex-direction: column;
+            height:100%;
+            align-items: center;
+        }
 
         .my-story{
             width:50%;
             @include flexC;
             height:100%;
             align-items: center;
+            @include tablet-small{
+                width:80%;
+            }
             
 
             .my-story-header{
@@ -90,3 +90,4 @@
     }
 
 }
+

@@ -18,3 +18,13 @@ body{
    
 
 }
+
+@include tablet-small {
+    nav {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+}

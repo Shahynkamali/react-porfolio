@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+
+
 
 const Skills = () =>{
   return (
     <React.Fragment>
 <section className="wrapper">
     <div className="my-skills">
-        <div className="my-skills-header">
+        <div className="header">
             <h2>my skills</h2>
             <p>a collection of lanuages, frameworks and libraries i have learned over the year</p>
         </div>

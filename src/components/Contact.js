@@ -5,7 +5,7 @@ const Contact = () => {
   return (
 <section className="wrapper">
     <div className="form">
-        <div className="form-header">
+        <div className="header">
             <h2>contact me</h2>
         </div>
         <form action="" method="POST" name="contactForm">

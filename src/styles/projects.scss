@@ -10,12 +10,18 @@
         height: 400px;
         @include flexC;
         align-items: center;
+        @include desktop {
+            width: 250px;
+        }
+        
     }
     .cards{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         text-align: center;
+
+        
     
     .mdl-card__title {
         align-items: flex-end;

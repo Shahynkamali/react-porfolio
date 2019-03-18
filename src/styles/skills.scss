@@ -1,23 +1,13 @@
 .my-skills{
-     height:100%;
      @include flexC;
-     justify-content: center;
-     background:$third;
-     border-top:5px solid $accent;
-     border-left:5px solid $accent;
-
-     .my-skills-header{
-          text-align: center;
-
-          h2{
-               font-family: $font1;
-               text-transform: uppercase;
-               color:$secondary;
-          }
+     @include inWrapper;
+     
+     .header{
+          @include header;
      }
      .skill-gallery{
           @include flexR;
-          width:100%;
+          width:90%;
 
           .skills-row{
                @include flexR;

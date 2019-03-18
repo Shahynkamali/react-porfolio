@@ -1,4 +1,6 @@
-
+.active{
+    color:$accent !important;
+}
 
 nav{
     background: $third;
@@ -18,7 +20,6 @@ nav{
     
 
     li{
-      
         width: 100%;
         text-align: center;
         
@@ -45,7 +46,7 @@ nav{
             width: 0;
             height: 4px;
             background: $accent;
-            transition: width .4s;
+            transition: width .4s; 
         }
 
         .link:hover::after {
@@ -54,3 +55,5 @@ nav{
         }
     }
 }
+
+
