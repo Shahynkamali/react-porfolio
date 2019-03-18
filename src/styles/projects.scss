@@ -1,64 +1,66 @@
 
-
 .catergory-tabs{
-    background:$third;
-    width:100%;
-    border-top:5px solid $accent;
-    border-left:5px solid $accent;
+@include inWrapper;
 
-    .mdl-card {
-        height: 400px;
-        @include flexC;
-        align-items: center;
-        @include desktop {
-            width: 250px;
+.cards{
+    @include flexR;
+    flex-wrap:wrap;
+    width: 100%;
+    justify-content: space-around;
+    height:100%;
+    .card{
+        border:3px solid $third;
+        height: 369px;
+        
+
+        .mdl-card{
+            width:300px;
+            
+            .mdl-card__supporting-text{
+            width: 100%;
+            text-align: center;
+            font-family: $font2;
+            color:$secondary;
+            height:300px;
+            @include flexC;
+            justify-content: space-between;
+            .mdl-card__title{
+                border:3px solid $third;
+                @include flexC;
+                justify-content: flex-end;
+                align-items: flex-start;
+                h3{
+                    font-family: $font1;
+                    margin:0;
+                    text-transform: uppercase;
+                    font-size:1.2rem;
+                    background:$third;
+                    color:$accent;
+                    padding:5px 5px;
+                }
+            }
         }
-        
-    }
-    .cards{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-
-        
-    
-    .mdl-card__title {
-        align-items: flex-end;
-        h3{
-            color:black;
-            font-size:1.2rem;
+        .mdl-card__actions{
+            text-align: center;
             margin:0;
-            font-family: $font1;
-            text-transform: capitalize;
-            background:$third;
-            color:$accent;
-            padding:5px 10px;
-        }
-    }
-    .mdl-card__supporting-text{
-        height:80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 10px 20px;
-        margin-bottom: 15px;
-        font-family: $font2;
-        color:$secondary;
-        font-size:1.2rem;
-    }
-    .mdl-button{
-        background: $third;
-        margin:10px 20px;
-        a{
-            color:$accent;
-            text-decoration: none;
-        }
-        
-    }
-   
+            @include flexR;
+            justify-content: space-around;
+            a{
+                padding:10px 20px;
+                border:3px solid $secondary;
+                color:$accent;
+                text-decoration: none;
+                font-family: $font2;
+                text-transform: uppercase;
+                font-weight: bold;
 
+            }
+            
+        }
     }
+        
+}
+}
 
     
 }

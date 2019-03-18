@@ -24,8 +24,8 @@ if(this.state.activeTab === 0){
                         The application is a small weather app that fetches data from the Weather API and displays it on the UX.
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/Shahynkamali/Weather-App">GitHub</a></Button>
-                        <Button colored><a href="https://parent-joke.firebaseapp.com/">Live Version</a></Button>
+                        <a href="https://github.com/Shahynkamali/Weather-App">GitHub</a>
+                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -38,8 +38,8 @@ if(this.state.activeTab === 0){
                         Group project that displays a daily joke, gets joke submissions and users can vote for the funniest joke. Data is stored in Firebase
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/Shahynkamali/scoreboard">GitHub</a></Button>
-                        <Button colored><a href="https://parent-joke.firebaseapp.com/">Live Version</a></Button>
+                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
+                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -52,8 +52,8 @@ if(this.state.activeTab === 0){
                     Application that finds various restaurants in North America and stores them in a top 10 list
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/Shahynkamali/scoreboard">GitHub</a></Button>
-                        <Button colored><a href="https://parent-joke.firebaseapp.com/">Live Version</a></Button>
+                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
+                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -64,19 +64,19 @@ if(this.state.activeTab === 0){
     return (
         <div className="cards">
         <div className="card">
-            <Card shadow={10}>
-                <CardTitle style={{color: "#fff", height: '176px', background: `url(${food}) center / cover` }}>
-                    <h3>recipe and wine finder</h3>
-                </CardTitle>
-                <CardText>
-                    Application that finds recipes and pairs them with a wine 
-                </CardText>
-                <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live Demo</Button>
-                </CardActions>
-            </Card>
-        </div>
+                <Card shadow={10}>
+                    <CardText>
+                        <CardTitle style={{color: "#fff", height: '176px', background: `url(${food}) center / cover` }}>
+                            <h3>recipe and wine finder</h3>
+                        </CardTitle>
+                    Application that finds various restaurants in North America and stores them in a top 10 list
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
+                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                    </CardActions>
+                </Card>
+            </div>
     </div>
 
 
@@ -85,19 +85,19 @@ if(this.state.activeTab === 0){
     return (
         <div className="cards">
         <div className="card">
-            <Card shadow={10}>
-                <CardTitle style={{color: "#fff", height: '176px', background: `url(${planted}) center / cover` }}>
-                    <h3>planted</h3>
-                </CardTitle>
-                <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iure, libero aperiam est ea amet, modi quam qui. Iusto, quisquam? Unde atque dignissimos deserunt vero dolores. Cumque hic error, facilis.
-                </CardText>
-                <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live Demo</Button>
-                </CardActions>
-            </Card>
-        </div>
+                <Card shadow={10}>
+                    <CardText>
+                        <CardTitle style={{color: "#fff", height: '176px', background: `url(${planted}) center / cover` }}>
+                            <h3>planted</h3>
+                        </CardTitle>
+                    Application that finds various restaurants in North America and stores them in a top 10 list
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
+                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                    </CardActions>
+                </Card>
+            </div>
     </div>		
         )
 }
@@ -117,7 +117,7 @@ render() {
             </Grid>
     </div>
     )
-  }
+}
 }
 
 export default Projects
