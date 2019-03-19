@@ -109,7 +109,8 @@ render() {
         
   
     <div className="catergory-tabs">
-    <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' duration={2}>
+    <ScrollAnimation animateIn='fadeInRight'
+        animateOut='fadeOutLeft'>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
         <Tab>React</Tab>
         <Tab>Jquery</Tab>

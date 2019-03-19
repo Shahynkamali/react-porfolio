@@ -1,6 +1,10 @@
 
 .catergory-tabs{
 @include inWrapper;
+@include flexC;
+@include desktop{
+    justify-content: flex-start;
+}
 
 .cards{
     @include flexR;

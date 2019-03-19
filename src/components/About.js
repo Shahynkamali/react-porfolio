@@ -9,13 +9,14 @@ return (
 <section className="wrapper">
 
     <div className="about-me">
-        <ScrollAnimation animateIn='fadeInLeft'>
+        <ScrollAnimation animateIn='fadeInLeft'
+        animateOut='fadeOutLeft'>
         <div className="header">
             <h2>about me</h2>
         </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeInRight'
-        animateOut='bounceOutLeft'>
+        animateOut='fadeOutLeft'>
         <div className="stories">
             <div className="about-me-image">
                 <img src={require("../assets/background.jpg")} alt="of shahyn kamali" />

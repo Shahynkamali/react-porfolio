@@ -1,13 +1,18 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 
 const Contact = () => {
   return (
 <section className="wrapper">
     <div className="form">
+        <ScrollAnimation animateIn='fadeInLeft'>
         <div className="header">
             <h2>contact me</h2>
         </div>
+        </ScrollAnimation>
+         <ScrollAnimation animateIn='fadeInRight'>
         <form action="" method="POST" name="contactForm">
         <div className="form-left">
             <fieldset>
@@ -32,6 +37,7 @@ const Contact = () => {
             </fieldset>
         </div>
         </form>
+        </ScrollAnimation>
     </div>
 </section>
     

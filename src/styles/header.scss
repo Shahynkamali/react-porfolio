@@ -7,9 +7,14 @@ header{
         align-items: center;
         height: 100%;
         width:100%;
+
        
         @include tablet{
+        flex-direction: column;
             width: 100%;
+            h1{
+                font-size:2.3rem;
+            }
         }
         .header-title{
             width: 60%;

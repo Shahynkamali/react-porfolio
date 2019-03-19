@@ -28,7 +28,7 @@ const Header = () =>{
             <Sidebar className="sidebar" initialPose="exit" pose="enter">
                 <div className="header-title">
                     <h1><SplitText charPoses={charPoses}>shahyn kamali</SplitText></h1>
-                    <h5><SplitText charPoses={charPoses}>I am a front end developer</SplitText></h5>
+                    <h5><SplitText charPoses={charPoses}>front end developer</SplitText></h5>
                 </div>
                 <div className="social">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shahyn-kamali-33019a57/"><i alt="linkedin page" className="fab fa-linkedin"></i></a>

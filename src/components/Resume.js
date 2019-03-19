@@ -34,10 +34,14 @@ class Resume extends Component {
         <React.Fragment>
             <section className="wrapper">
                 <div className="resume">
-                <ScrollAnimation animateIn='fadeIn' duration={2} animateOut='fadeOut'>
+                    <ScrollAnimation animateIn='fadeInLeft'>
+                    
                     <div className="header">
                         <h2>my resume</h2>
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='fadeInRight'
+                    animateOut='fadeOutLeft'>
                     <div className="resume-content">
         {data.map(({ title, content, date }, i) => (
         <React.Fragment key={i}>
