@@ -1,9 +1,11 @@
 
 .catergory-tabs{
 @include inWrapper;
+overflow: hidden;
 @include flexC;
 @include desktop{
     justify-content: flex-start;
+    overflow:auto;
 }
 
 .cards{

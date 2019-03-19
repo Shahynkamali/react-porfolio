@@ -108,20 +108,22 @@ render() {
     return (
         
   
-    <div className="catergory-tabs">
-    <ScrollAnimation animateIn='fadeInRight'
-        animateOut='fadeOutLeft'>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
-        <Tab>React</Tab>
-        <Tab>Jquery</Tab>
-        <Tab>SCSS</Tab>
-        </Tabs>
-            <Grid className="projects-grid">
-                <Cell col={12}>
-                <div className="content">{this.toggleCatagories()}</div>
-                </Cell>
-            </Grid>
-    </ScrollAnimation>
+    <div className="wrapper">
+            <div className="catergory-tabs">
+                <ScrollAnimation animateIn='fadeInRight'
+                    animateOut='fadeOutLeft'>
+                    <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                        <Tab>React</Tab>
+                        <Tab>Jquery</Tab>
+                        <Tab>SCSS</Tab>
+                    </Tabs>
+                    <Grid className="projects-grid">
+                        <Cell col={12}>
+                            <div className="content">{this.toggleCatagories()}</div>
+                        </Cell>
+                    </Grid>
+                </ScrollAnimation>
+             </div>
     </div>
     )
 }
