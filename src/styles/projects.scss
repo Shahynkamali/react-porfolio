@@ -3,9 +3,22 @@
 @include inWrapper;
 overflow: hidden;
 @include flexC;
+.mdl-tabs__tab {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $accent;
+    font-family: $font2;
+    letter-spacing:4px;
+
+
+}
+.mdl-tabs__tab:hover{
+    color:$primary;
+}
 @include desktop{
     justify-content: flex-start;
     overflow:auto;
+    
 }
 
 .cards{
@@ -17,6 +30,7 @@ overflow: hidden;
     .card{
         border:3px solid $third;
         height: 369px;
+        margin: 10px 5px;
         
 
         .mdl-card{
@@ -60,6 +74,18 @@ overflow: hidden;
                 text-transform: uppercase;
                 font-weight: bold;
 
+            }
+            a:hover{
+                background:$primary;
+                color:white;
+            }
+            a:focus{
+                background:white;
+                color:$accent;
+            }
+            a:active{
+                background:$primary;
+                color:white;
             }
             
         }

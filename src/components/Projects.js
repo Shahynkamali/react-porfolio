@@ -26,8 +26,7 @@ if(this.state.activeTab === 0){
                         The application is a small weather app that fetches data from the Weather API and displays it on the UX.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Shahynkamali/Weather-App">GitHub</a>
-                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/Weather-App">GitHub</a>
                     </CardActions>
                 </Card>
             </div>
@@ -40,8 +39,8 @@ if(this.state.activeTab === 0){
                         Group project that displays a daily joke, gets joke submissions and users can vote for the funniest joke. Data is stored in Firebase
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
-                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/shabora/parent-joke-project-6">GitHub</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://parent-joke.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -54,8 +53,8 @@ if(this.state.activeTab === 0){
                     Application that finds various restaurants in North America and stores them in a top 10 list
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
-                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://javascript-project-5.firebaseapp.com/">GitHub</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/react_project_5">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -71,11 +70,11 @@ if(this.state.activeTab === 0){
                         <CardTitle style={{color: "#fff", height: '176px', background: `url(${food}) center / cover` }}>
                             <h3>recipe and wine finder</h3>
                         </CardTitle>
-                    Application that finds various restaurants in North America and stores them in a top 10 list
+                    Application that fecthes recipes from an API and pairs them with a pre selected wine
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
-                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/twobrownguys-moe-shahyn/project4">GitHub</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://twobrownguys-moe-shahyn.github.io/project4/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -92,11 +91,11 @@ if(this.state.activeTab === 0){
                         <CardTitle style={{color: "#fff", height: '176px', background: `url(${planted}) center / cover` }}>
                             <h3>planted</h3>
                         </CardTitle>
-                    Application that finds various restaurants in North America and stores them in a top 10 list
+                    PSD Designer project creating a multi page website using CSS Grid and Flexbox
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/Shahynkamali/scoreboard">GitHub</a>
-                        <a href="https://parent-joke.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/shahyn-kamali-project-two">GitHub</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://shahynkamali.github.io/shahyn-kamali-project-two/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
@@ -107,7 +106,6 @@ if(this.state.activeTab === 0){
 render() {
     return (
         
-  
     <div className="wrapper">
             <div className="catergory-tabs">
                 <ScrollAnimation animateIn='fadeInRight'
@@ -123,7 +121,7 @@ render() {
                         </Cell>
                     </Grid>
                 </ScrollAnimation>
-             </div>
+            </div>
     </div>
     )
 }

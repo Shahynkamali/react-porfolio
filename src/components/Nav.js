@@ -35,7 +35,7 @@ render(){
     <Sidebar className="sidebar" pose={isOpen ? 'open' : 'closed'}>
         <Item><NavLink exact className="link" activeClassName="active" to="/">About</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink></Item>
-        <Item><NavLink exact className="link" activeClassName="active" to="/resume">Resume</NavLink></Item>
+        <Item><NavLink exact className="link" activeClassName="active" to="/resume">Completed Courses</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink></Item>
         <Item><NavLink exact className="link" activeClassName="active" to='/contact'>Contact</NavLink></Item>
     </Sidebar>

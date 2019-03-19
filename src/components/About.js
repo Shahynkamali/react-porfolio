@@ -23,8 +23,11 @@ return (
             </div>
             <div className="my-philosophy">
                 <div className="my-philosophy-header">
-                    <h3>who is shahyn?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, id ullam! Consectetur illum earum optio numquam sapiente, ullam voluptate eveniet iste minus, sed officiis aspernatur perspiciatis laudantium aperiam suscipit temporibus! Optio nobis minima aliquid libero neque modi explicabo doloremque id.</p>
+                    <h3>Thats me on a active vulcano!</h3>
+                    <p>I am a front end developer, graduate of the HackerYou college of Technology with a passion for building interactive websites! 
+In a previous life I was crawling through wines cellars as a sommelier but I always had an interest in technology which allowed me to start coding. 
+The hospitality industry taught me how to create unique user experiences for guests and I apply the same mindset for when I build a website! 
+If I have a couple weeks to spare, you can find me traveling around the world finding pristine beaches and challenging hikes!</p>
                 </div>
             </div>
         </div>

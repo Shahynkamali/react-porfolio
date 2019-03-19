@@ -5,6 +5,11 @@
      
      .header{
           @include header;
+          h2 {
+               @include mobile {
+                    font-size: 2.1rem;
+               }
+          }
      }
      .skill-gallery{
           @include flexR;
@@ -22,7 +27,6 @@
                margin:0 20px;
                margin-top: 40px;
                
-
                figure{
                     width: 90px;
                     
