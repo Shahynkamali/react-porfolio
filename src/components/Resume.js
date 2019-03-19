@@ -10,17 +10,17 @@ const Content = posed.div({
 const data = [
     {
     title: 'web development Fundamentals',
-    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, esse?`,
+    content: `Our Con-Ed Web Development courses are designed for tech-savvy beginners - no prior experience is necessary. Each class is exercise-heavy, and our 10:1 student to mentor ratio means that you won’t ever feel left behind. In addition to in-class exercises, there are plenty of additional take-home exercises and coding challenges to sharpen your skills. You’ll leave these courses with beautiful, portfolio-ready websites built from scratch.`,
     date:`july 2018`
     },
     {
     title: 'JavaScript Fundamentals',
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, esse!`,
+    content: `Add more depth to your websites with our Part-Time JavaScript courses. In Fundamentals you will start with the basics of functional programming, like objects, arrays, and jQuery. In Advanced, you’ll cover APIs and AJAX, promises, and React basics, among other topics. You will leave these courses with the perfect addition to your front-end skillset.`,
     date:`october 2018`
     },
     {
     title: `Web Development Immersive (Bootcamp)`,
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, esse!`,
+    content: `There are lots of places you can learn to code. Our Web Development Immersive (Bootcamp) is for you if you're ready to take the leap to pursue a career as a Front-End Developer. Your experience in this program is about more than just taking a deep dive into JavaScript and React. With curriculum focused on current industry best practices led by a world-class instructor team, you’ll graduate from HackerYou with the skills and knowledge you'll need to land a junior front-end developer position. We're the experts in getting you there.`,
     date:`january 2019`  
     }
 ]

@@ -1,10 +1,12 @@
 .form{
     @include inWrapper;
     @include flexC;
+    
    
 
     .header {
         @include header;
+
 
     }
     form {

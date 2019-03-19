@@ -2,7 +2,6 @@
     @include flexC;
     @include inWrapper;
     justify-content: space-evenly;
-    overflow: hidden;
     @include tablet-small{
         justify-content: space-evenly;
     }
@@ -21,6 +20,7 @@
             flex-direction: column;
             height:100%;
             align-items: center;
+
         }
 
         .about-me-image{
@@ -78,6 +78,9 @@
             height:100%;
             @include flexC;
             justify-content: center;
+            @include tablet-small{
+                width:100%;
+            }
 
             .my-philosophy-header{
                 @include flexC;

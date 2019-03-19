@@ -1,6 +1,8 @@
 import React from 'react'
 import posed from 'react-pose';
 import SplitText from 'react-pose-text';
+import {NavLink} from 'react-router-dom';
+
 
 const Sidebar = posed.div({
     exit: {
@@ -24,6 +26,7 @@ const charPoses = {
 
 const Header = () =>{
     return (
+        <React.Fragment>
     <header>
             <Sidebar className="sidebar" initialPose="exit" pose="enter">
                 <div className="header-title">
@@ -38,6 +41,15 @@ const Header = () =>{
                 </div>
             </Sidebar>
     </header>
+            <div className="res-nav">
+                <NavLink exact className="link" activeClassName="active" to="/">About</NavLink>
+                <NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink>
+                <NavLink exact className="link" activeClassName="active" to="/resume">Resume</NavLink>
+                <NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink>
+                <NavLink exact className="link" activeClassName="active" to='/contact'>Contact</NavLink>
+            </div>
+    </React.Fragment>
+    
     )
 }
 

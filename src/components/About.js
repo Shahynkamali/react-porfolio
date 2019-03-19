@@ -10,7 +10,7 @@ return (
 
     <div className="about-me">
         <ScrollAnimation animateIn='fadeInLeft'
-        animateOut='fadeOutLeft'>
+        animateOut='flipOutY'>
         <div className="header">
             <h2>about me</h2>
         </div>

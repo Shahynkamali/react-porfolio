@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
+
 class App extends Component {
   state = { isVisible: false };
 
@@ -23,8 +24,9 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
+      <a href="#maincontent" className="skip-link">Skip to main content.</a>
         <Header/>
-        <div className="main">
+        <div className="main" id="maincontent">
           <Nav/> 
           {this.state.isVisible === true &&
           <Route path='/'  exact component={About}/>

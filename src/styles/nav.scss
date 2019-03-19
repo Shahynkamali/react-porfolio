@@ -68,5 +68,21 @@ nav{
         }
     }
 }
-
-
+.res-nav{
+    @include flexR;
+    width:100%;
+    justify-content: space-evenly;
+    display: none;
+    @include tablet-small{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color:$primary;
+        font-family: $font1;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding:10px 10px;
+    }
+    
+}
