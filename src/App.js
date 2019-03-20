@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
+
 class App extends Component {
   state = { isVisible: false };
 

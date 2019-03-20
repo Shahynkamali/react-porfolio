@@ -109,6 +109,10 @@
     input:focus~i{
         color:$accent;
     }
+    :not(output):-moz-ui-invalid{
+        box-shadow:none;
+
+    }
     i{
         position: absolute;
         top: 61px;

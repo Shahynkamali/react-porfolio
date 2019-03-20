@@ -38,13 +38,14 @@ const Header = () =>{
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shahynsweb/?hl=en"> <i alt="instagram page" className="fab fa-instagram"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/TheSommWhoCodes?lang=en"><i alt="twitter page" className="fab fa-twitter-square"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@shahynkamali"><i alt="medium page" className="fab fa-medium"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali"><i class="fab fa-github-square"></i></a>
                 </div>
             </Sidebar>
     </header>
             <div className="res-nav">
                 <NavLink exact className="link" activeClassName="active" to="/">About</NavLink>
                 <NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink>
-                <NavLink exact className="link" activeClassName="active" to="/resume">Completed Courses</NavLink>
+                <NavLink exact className="link" activeClassName="active" to="/resume">Courses</NavLink>
                 <NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink>
                 <NavLink exact className="link" activeClassName="active" to='/contact'>Contact</NavLink>
             </div>
