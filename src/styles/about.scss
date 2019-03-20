@@ -1,7 +1,7 @@
 .about-me{
     @include flexC;
     @include inWrapper;
-    justify-content: space-evenly;
+    justify-content: center;
     @include tablet{
         justify-content: flex-start;
         overflow: auto;
@@ -80,7 +80,7 @@
                     font-family: $font2;
                     text-align: left;
                     width: 80%;
-                    font-size:1.2rem;
+                    font-size:1rem;
                     
                 }
             }
