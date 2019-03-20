@@ -9,19 +9,19 @@ const Content = posed.div({
 });
 const data = [
     {
-    title: 'web development Fundamentals',
-    content: `Our Con-Ed Web Development courses are designed for tech-savvy beginners - no prior experience is necessary. Each class is exercise-heavy, and our 10:1 student to mentor ratio means that you won’t ever feel left behind. In addition to in-class exercises, there are plenty of additional take-home exercises and coding challenges to sharpen your skills. You’ll leave these courses with beautiful, portfolio-ready websites built from scratch.`,
-    date:`july 2018`
+    title: 'Web Development Immersive (Bootcamp)',
+    content: `Full-Time intense 9 week course focused on advanced HTML/CSS & JavaScript(ES6). In this period of time we created 4 individual projects and 2 group projects. Curriculum extends HTML, SCSS, JavaScript, Jquery, React, Github and Firebase. Focus is on front end web development with attention to accessibility, responsive design and modern practise.`,
+    date:`january 2019`
     },
     {
     title: 'JavaScript Fundamentals',
-    content: `Add more depth to your websites with our Part-Time JavaScript courses. In Fundamentals you will start with the basics of functional programming, like objects, arrays, and jQuery. In Advanced, you’ll cover APIs and AJAX, promises, and React basics, among other topics. You will leave these courses with the perfect addition to your front-end skillset.`,
+    content: `9 week Part-Time course focused on JavaScript(ES6), Jquery and React. We started with basic JavaScript principles and moved on to more advanced topics like promises, destructuring, and asynchronous events. We learned how to apply JavaScript libraries and what functional programming means.`,
     date:`october 2018`
     },
     {
-    title: `Web Development Immersive (Bootcamp)`,
-    content: `There are lots of places you can learn to code. Our Web Development Immersive (Bootcamp) is for you if you're ready to take the leap to pursue a career as a Front-End Developer. Your experience in this program is about more than just taking a deep dive into JavaScript and React. With curriculum focused on current industry best practices led by a world-class instructor team, you’ll graduate from HackerYou with the skills and knowledge you'll need to land a junior front-end developer position. We're the experts in getting you there.`,
-    date:`january 2019`  
+    title: `web development Fundamentals`,
+    content: `Full-Time 2 week HTML & CSS course. During these 2 weeks we finished 2 PSD conversion projects. We learned how to structure our HTML and the use of semantic elements and how to style our websites, writing DRY CSS. We learned about best practices and modern tools to help us write clean code.  `,
+    date:`july 2018`  
     }
 ]
 class Resume extends Component {
@@ -37,7 +37,8 @@ class Resume extends Component {
                     <ScrollAnimation animateIn='fadeInLeft'>
                     
                     <div className="header">
-                        <h2>my resume</h2>
+                        <h2>courses</h2>
+                        <h4>All my courses were completed at HackerYou, College for Technology in Toronto, Canada</h4>
                     </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='fadeInRight'

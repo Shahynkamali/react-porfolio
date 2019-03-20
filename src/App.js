@@ -18,7 +18,7 @@ class App extends Component {
       this.setState({
         isVisible: true
       });
-    }, 3000);
+    }, 2000);
   }
   render() {
     return (

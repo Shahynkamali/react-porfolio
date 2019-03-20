@@ -6,8 +6,8 @@ import posed from 'react-pose';
 const Sidebar = posed.ul({
   open: {
     x: '0%',
-    delay:1000,
-    delayChildren: 900,
+    delay:400,
+    delayChildren: 600,
     staggerChildren: 300
   },
   closed: { x: '-100%', delay: 300 }

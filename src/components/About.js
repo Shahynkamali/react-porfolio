@@ -23,7 +23,7 @@ return (
             </div>
             <div className="my-philosophy">
                 <div className="my-philosophy-header">
-                    <h3>Thats me on a active vulcano!</h3>
+                    <h3>Thats me on an active volcano!</h3>
                     <p>I am a front end developer, graduate of the HackerYou college of Technology with a passion for building interactive websites! 
 In a previous life I was crawling through wines cellars as a sommelier but I always had an interest in technology which allowed me to start coding. 
 The hospitality industry taught me how to create unique user experiences for guests and I apply the same mindset for when I build a website! 

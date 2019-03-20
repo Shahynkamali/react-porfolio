@@ -62,12 +62,15 @@
             .my-philosophy-header{
                 @include flexC;
                 align-items: center;
+                width:100%;
                 h3{
                     font-family: $font1;
-                    text-align: center;
+                    text-align: left;
                     font-weight: bold;
                     font-size:2.1rem;
                     color:$accent;
+                    width:80%;
+                    
                     @include mobile{
                         font-size:1.7rem;
                         margin:10px 0;
