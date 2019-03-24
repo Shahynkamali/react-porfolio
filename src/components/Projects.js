@@ -53,8 +53,8 @@ if(this.state.activeTab === 0){
                     Application that finds various restaurants in North America and stores them in a top 10 list
                     </CardText>
                     <CardActions border>
-                        <a target="_blank" rel="noopener noreferrer" href="https://javascript-project-5.firebaseapp.com/">GitHub</a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/react_project_5">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/react_project_5">GitHub</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https: //javascript-project-5.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
