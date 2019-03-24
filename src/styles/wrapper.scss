@@ -12,6 +12,9 @@ body{
 .main{
     @include flexR;
     height:80vh;
+    @include desktop {
+        height: auto;
+    }
 }
 
 .wrapper{

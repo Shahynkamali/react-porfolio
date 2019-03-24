@@ -19,7 +19,7 @@ $bo: 1px solid black;
 }
 @mixin inWrapper{
     @include flexC;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     background:$third;
     border-top:5px solid $accent;
     border-left:5px solid $accent;

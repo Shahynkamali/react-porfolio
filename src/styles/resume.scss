@@ -6,7 +6,9 @@
 
 .resume{
     @include flexC;
-    @include inWrapper;
+    justify-content: flex-start;
+    margin:0 auto;
+    width:100%;
     @include tablet {
     justify-content: flex-start;
     }
@@ -28,6 +30,8 @@
         h4 {
             font-family: $font2;
             color: $primary;
+            font-size:1.3rem;
+            margin:0;
         }
         
     }
@@ -35,7 +39,7 @@
         @include flexR;
         justify-content: space-evenly;
         width:100%;
-        height: 450px;
+        height: auto;
         margin-bottom: 40px;
         @include mobile-large{
             height: 580px;
@@ -59,7 +63,6 @@
             height:100%;
             width:30%;
             text-align: center;
-            padding-bottom: 20px;
             
             @include mobile-medium{
                 width:80%;
@@ -103,6 +106,7 @@
                     color:$accent;
                     font-weight: bold;
                     text-transform: uppercase;
+                   
 
                 }
             }
@@ -128,4 +132,10 @@
 
 .content-wrapper {
     padding: 10px;
+    p{
+        font-size:1rem;
+         @include tablet-small {
+             font-size: 0.8rem;
+         }
+    }
 }

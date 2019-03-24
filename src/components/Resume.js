@@ -10,17 +10,18 @@ const Content = posed.div({
 const data = [
     {
     title: 'Web Development Immersive (Bootcamp)',
-    content: `Full-Time intense 9 week course focused on advanced HTML/CSS & JavaScript(ES6). In this period of time we created 4 individual projects and 2 group projects. Curriculum extends HTML, SCSS, JavaScript, Jquery, React, Github and Firebase. Focus is on front end web development with attention to accessibility, responsive design and modern practise.`,
+    content: `Full-Time, intensive 9 week course focused on advanced HTML/CSS & JavaScript(ES6).  In this period of time we created 4 individual projects and 2 group projects.  The curriculum included HTML, SCSS, JavaScript, Jquery, React, Github and Firebase.  The focus was on front end web development with attention to accessibility, responsive design and modern practise.`,
     date:`january 2019`
     },
     {
     title: 'JavaScript Fundamentals',
-    content: `9 week Part-Time course focused on JavaScript(ES6), Jquery and React. We started with basic JavaScript principles and moved on to more advanced topics like promises, destructuring, and asynchronous events. We learned how to apply JavaScript libraries and what functional programming means.`,
+    content: `9 week Part-Time course focused on JavaScript(ES6), Jquery and React.  This course started with basic JavaScript principles and moved on to more advanced topics like promises, destructuring, and asynchronous events. We learned how to apply JavaScript libraries and what functional programming means.
+`,
     date:`october 2018`
     },
     {
     title: `web development Fundamentals`,
-    content: `Full-Time 2 week HTML & CSS course. During these 2 weeks we finished 2 PSD conversion projects. We learned how to structure our HTML and the use of semantic elements and how to style our websites, writing DRY CSS. We learned about best practices and modern tools to help us write clean code.  `,
+    content: `Full-Time 2-week HTML & CSS course. During these 2 weeks we finished 2 PSD conversion projects. We learned how to structure our HTML, use semantic elements, and style our websites, writing DRY CSS.  This course also covered best practices and modern tools to write clean code`,
     date:`july 2018`  
     }
 ]
