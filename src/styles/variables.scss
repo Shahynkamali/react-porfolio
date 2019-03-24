@@ -1,4 +1,4 @@
-$primary: #525659;
+$primary: rgb(82, 86, 89);
 $secondary: #000000;
 $third: #dddddd;
 $accent: #08A300;
@@ -18,7 +18,8 @@ $bo: 1px solid black;
 
 }
 @mixin inWrapper{
-    justify-content: center;
+    @include flexC;
+    justify-content: space-evenly;
     background:$third;
     border-top:5px solid $accent;
     border-left:5px solid $accent;

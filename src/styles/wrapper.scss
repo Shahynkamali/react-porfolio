@@ -1,8 +1,8 @@
 .App{
-  max-width: 1600px;
-  width:100%;
-  margin: 0 auto;
-  overflow: auto;
+max-width: 1600px;
+width:100%;
+margin: 0 auto;
+overflow: hidden;
 }
 
 
@@ -12,12 +12,12 @@ body{
 .main{
     @include flexR;
     height:80vh;
-    overflow: hidden;
 }
 
 .wrapper{
  width:100%;
- overflow: hidden;
+ @include inWrapper;
+ 
 
 }
 

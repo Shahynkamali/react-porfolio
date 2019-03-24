@@ -1,11 +1,6 @@
 .form{
     @include inWrapper;
     @include flexC;
-    @include mobile-medium{
-    justify-content: space-evenly;
-    }
-    
-   
 
     .header {
         @include header;
