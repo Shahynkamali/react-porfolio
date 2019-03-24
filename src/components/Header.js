@@ -1,7 +1,7 @@
 import React from 'react'
 import posed from 'react-pose';
 import SplitText from 'react-pose-text';
-import {NavLink} from 'react-router-dom';
+import SideNav from './SideNav';
 
 
 const Sidebar = posed.div({
@@ -40,15 +40,9 @@ const Header = () =>{
                     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@shahynkamali"><i alt="medium page" className="fab fa-medium"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali"><i class="fab fa-github-square"></i></a>
                 </div>
+                <SideNav/>
             </Sidebar>
     </header>
-            <div className="res-nav">
-                <NavLink exact className="link" activeClassName="active" to="/">About</NavLink>
-                <NavLink exact className="link" activeClassName="active" to="/projects">Projects</NavLink>
-                <NavLink exact className="link" activeClassName="active" to="/resume">Courses</NavLink>
-                <NavLink exact className="link" activeClassName="active" to='/skills'>Skills</NavLink>
-                <NavLink exact className="link" activeClassName="active" to='/contact'>Contact</NavLink>
-            </div>
     </React.Fragment>
     
     )

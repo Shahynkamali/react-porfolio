@@ -63,7 +63,7 @@
                 font-family: $font1;
                 text-align: left;
                 font-weight: bold;
-                font-size:1.9rem;
+                font-size:1.4rem;
                 color:$accent;
                 width:100%;
                 margin:0;
@@ -72,18 +72,18 @@
                 }
                 @include tablet-small{
                     margin:5px 0;
-                    font-size:1.3rem;
+                    font-size:0.9rem;
                 }
             }
             p{
                 font-family: $font2;
                 text-align: left;
                 width: 100%;
-                font-size:1.1rem;
+                font-size:0.8rem;
                 margin:0;
                 line-height: 24px;
                 @include mobile-medium{
-                    font-size:0.9rem;
+                    font-size:0.6rem;
                 }
             }
         }

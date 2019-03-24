@@ -32,10 +32,10 @@ class App extends Component {
           {this.state.isVisible === true &&
           <Route path='/'  exact component={About}/>
           }
-          <Route path='/projects'  component={Projects}/>
-          <Route path='/resume'  component={Resume}/>
-          <Route path='/skills' component={Skills}/>
-          <Route path='/contact' component={Contact}/>
+          <Route path='/projects' exact  component={Projects}/>
+          <Route path='/resume'  exact component={Resume}/>
+          <Route path='/skills' exact component={Skills}/>
+          <Route path='/contact' exact component={Contact}/>
 
         </div>
         
