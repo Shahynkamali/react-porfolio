@@ -122,18 +122,18 @@
 
 .content {
     overflow: hidden;
-    font-size: 18px;
     color:$primary;
     p{
         color:$primary;
         font-weight:bold;
+
     }
 }
 
 .content-wrapper {
     padding: 10px;
     p{
-        font-size:1rem;
+        font-size: 0.7rem;
          @include tablet-small {
              font-size: 0.8rem;
          }
