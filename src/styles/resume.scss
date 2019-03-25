@@ -61,7 +61,7 @@
             @include flexC;
             justify-content: center;
             height:100%;
-            width:30%;
+            width: calc(100% /3);
             text-align: center;
             
             @include mobile-medium{
