@@ -107,7 +107,7 @@ render() {
     return (
         
     <div className="wrapper">
-            <div className="catergory-tabs">
+            <div className="catergory-tabs" id="maincontent">
                 <ScrollAnimation animateIn='fadeInRight'
                     animateOut='fadeOutLeft'>
                     <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>

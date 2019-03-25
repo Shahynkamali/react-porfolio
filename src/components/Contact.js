@@ -50,7 +50,7 @@ handleSubmit = (e) => {
   render() {
     return (
       <section className="wrapper">
-    <div className="form">
+    <div className="form" id="maincontent">
         <ScrollAnimation animateIn='fadeInLeft'>
         <div className="header">
             <h2>contact me</h2>

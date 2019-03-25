@@ -7,7 +7,7 @@ import "animate.css/animate.min.css";
 const About = () => {
 return (
 <section className="wrapper">
-    <div className="about-me">
+    <div className="about-me" id="maincontent">
     <ScrollAnimation animateIn='fadeInLeft'animateOut='flipOutY'>
         <div className="header">
             <h2>about me</h2>

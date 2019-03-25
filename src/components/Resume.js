@@ -34,7 +34,7 @@ class Resume extends Component {
     return (
         <React.Fragment>
             <section className="wrapper">
-                <div className="resume">
+                <div className="resume" id="maincontent">
                     <ScrollAnimation animateIn='fadeInLeft'>
                     
                     <div className="header">

@@ -6,7 +6,7 @@ const Skills = () =>{
   return (
     <React.Fragment>
 <section className="wrapper">
-    <div className="my-skills">
+    <div className="my-skills" id="maincontent">
     <ScrollAnimation animateIn='fadeInLeft'>
         <div className="header">
             <h2>my skills</h2>

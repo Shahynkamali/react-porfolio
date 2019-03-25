@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 
 
 
@@ -24,10 +24,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
+      <div className="App" >
       <a href="#maincontent" className="skip-link">Skip to main content.</a>
         <Header/>
-        <div className="main" id="maincontent">
+        <div className="main">
           <Nav/> 
           {this.state.isVisible === true &&
           <Route path='/'  exact component={About}/>

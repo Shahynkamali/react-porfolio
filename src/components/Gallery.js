@@ -5,7 +5,7 @@ import "animate.css/animate.min.css";
 const Gallery = () => {
   return (
     <section className="wrapper">
-      <div className="gallery">
+      <div className="gallery" id="maincontent">
         <ScrollAnimation animateIn='bounceInRight'
         animateOut='bounceOutLeft'>>
         <div className="gallery-row">
