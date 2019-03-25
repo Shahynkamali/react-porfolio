@@ -54,14 +54,14 @@ if(this.state.activeTab === 0){
                     </CardText>
                     <CardActions border>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/react_project_5">GitHub</a>
-                        <a target="_blank" rel="noopener noreferrer" href="https: //javascript-project-5.firebaseapp.com/">Live Version</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://javascript-project-5.firebaseapp.com/">Live Version</a>
                     </CardActions>
                 </Card>
             </div>
         </div>
 
         )
-} else if(this.state.activeTab === 1){
+} else if(this.state.activeTab === 2){
     return (
         <div className="cards">
         <div className="card">
@@ -82,7 +82,7 @@ if(this.state.activeTab === 0){
 
 
         )
-} else if (this.state.activeTab === 2){
+} else if (this.state.activeTab === 1){
     return (
         <div className="cards">
         <div className="card">
@@ -112,7 +112,7 @@ render() {
                     animateOut='fadeOutLeft'>
                     <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                         <Tab>React</Tab>
-                        <Tab>Jquery</Tab>
+                       {/*  <Tab>Jquery</Tab> */}
                         <Tab>SCSS</Tab>
                     </Tabs>
                     <Grid className="projects-grid">
