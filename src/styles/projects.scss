@@ -58,6 +58,15 @@ overflow: hidden;
                     padding:5px 5px;
                 }
             }
+            .card-desc{
+            
+            p{
+                margin:0;
+                font-family: $font2;
+                font-weight: normal;
+                color:$primary;
+            }
+            }
         }
         .mdl-card__actions{
             text-align: center;
@@ -66,7 +75,7 @@ overflow: hidden;
             justify-content: space-around;
             a{
                 padding:10px 20px;
-                border:3px solid $secondary;
+                border:3px solid $primary;
                 color:$accent;
                 text-decoration: none;
                 font-family: $font2;
@@ -77,6 +86,7 @@ overflow: hidden;
             a:hover{
                 background:$primary;
                 color:white;
+                border:3px solid $secondary;
             }
             a:focus{
                 background:white;
