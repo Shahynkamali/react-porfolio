@@ -20,7 +20,7 @@ body{
 .wrapper{
  width:100%;
  @include inWrapper;
- @include mobile-large{
+ @include tablet-small{
      border:none;
  }
  

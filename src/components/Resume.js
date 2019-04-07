@@ -10,7 +10,7 @@ const Content = posed.div({
 const data = [
     {
     title: 'Web Development Immersive (Bootcamp)',
-    content: `Full-Time, intensive 9 week course focused on advanced HTML/CSS & JavaScript(ES6).  In this period of time we created 4 individual projects and 2 group projects.  The curriculum included HTML, SCSS, JavaScript, Jquery, React, Github and Firebase.  The focus was on front end web development with attention to accessibility, responsive design and modern practise.`,
+    content: `Full-Time,9 week course focused on advanced HTML/CSS & JavaScript(ES6). During this period we created 4 individual projects and 2 group projects.  The curriculum included HTML, CSS, JavaScript, Jquery, React,Firebase and responsive web design.  The focus was on front end web development with attention to accessibility, responsive design and modern practise.`,
     date:`january 2019`
     },
     {
