@@ -51,7 +51,7 @@ handleSubmit = (e) => {
     return (
       <section className="wrapper">
     <div className="form" id="maincontent">
-        <ScrollAnimation animateIn='fadeInLeft'>
+        <ScrollAnimation animateIn='fadeInRight'>
         <div className="header">
             <h2>contact me</h2>
         </div>

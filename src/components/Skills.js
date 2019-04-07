@@ -7,13 +7,13 @@ const Skills = () =>{
     <React.Fragment>
 <section className="wrapper">
     <div className="my-skills" id="maincontent">
-    <ScrollAnimation animateIn='fadeInLeft'>
+    <ScrollAnimation animateIn='fadeInRight'>
         <div className="header">
             <h2>my skills</h2>
         </div>
         </ScrollAnimation>
         <div className="skill-gallery">
-        <ScrollAnimation animateIn='flipInY'>
+        <ScrollAnimation animateIn='fadeInRight'>
             <div className="skills-row">
                 <figure>
                     <svg viewBox="0 0 128 128">
@@ -32,7 +32,7 @@ const Skills = () =>{
                 </figure>
             </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='flipInX'>
+            <ScrollAnimation animateIn='fadeInRight'>
             <div className="skills-row">
                 <figure>
                 <svg viewBox="0 0 128 128">
@@ -70,7 +70,7 @@ const Skills = () =>{
                 </figure>
             </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='flipInY'>
+            <ScrollAnimation animateIn='fadeInRight'>
             <div className="skills-row">
                 <figure>
                 <svg viewBox="0 0 128 128">

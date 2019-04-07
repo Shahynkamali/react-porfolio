@@ -65,11 +65,11 @@
                 text-align: left;
                 width: 100%;
                 font-size:1rem;
-                margin:0;
                 line-height: 24px;
-                margin:3px 0;
+                margin:2px 0;
                 @include mobile-medium{
                     font-size:0.6rem;
+                    margin:1px 0;
                 }
             }
         }
