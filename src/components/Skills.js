@@ -51,7 +51,7 @@ const Skills = () =>{
                 </figure>
                 </div>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn='flipInX'>
+                <ScrollAnimation animateIn='fadeInRight'>
                 <div className="skills-row">
             <figure>
                 <svg viewBox="0 0 128 128">

@@ -20,6 +20,9 @@ body{
 .wrapper{
  width:100%;
  @include inWrapper;
+ @include mobile-large{
+     border:none;
+ }
  
 
 }
