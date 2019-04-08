@@ -70,7 +70,7 @@ if(this.state.activeTab === 0){
                                 <img src={restaurant} alt=""/>
                             </div>
                             <div className="flipcard_front_title">
-                                <h3>Restaurant List App</h3>
+                                <h3>Restaurant App</h3>
                             </div>
                         </div>
                     </div>

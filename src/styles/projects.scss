@@ -18,24 +18,24 @@ overflow: hidden;
     width: 100%;
     justify-content: space-around;
     height:100%;
+    
     .card{
         border:3px solid $primary;
-        height: 376px;
+        height: 320px;
+        margin:20px 0;
         background-color: transparent;
         
 
 
-      
-
-
 .flipcard {
-    height: 370px;
-    width: 300px;
+    height:314px;
+    width: 280px;
     position: relative;
     perspective: 700px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     text-align: center;
+    
 }
 
 .flipcard_front,
@@ -140,11 +140,12 @@ overflow: hidden;
         
         i{
             color:$third;
-            font-size:4.3rem;
+            font-size:2.3rem;
         }
         i:hover{
             color:$accent;
         }
+
     }
 }
 
