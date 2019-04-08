@@ -21,7 +21,7 @@ overflow: hidden;
     
     .card{
         border:3px solid $primary;
-        height: 417px;
+        height: 300px;
         margin:20px 0;
         background-color: transparent;
         
@@ -61,7 +61,7 @@ overflow: hidden;
 
         .flipcard_front_image{
             width:100%;
-            height:100%;
+            height:65%;
             img{
                 width:100%;
                 height:100%;
@@ -74,7 +74,7 @@ overflow: hidden;
         @include flexC;
         justify-content: center;
         border-top:3px solid $primary;
-        height:150px;
+        height:35%;
         @include mobile-large{
             display: none;
         }
