@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Tabs, Tab, Grid, Cell} from 'react-mdl';
-import weather from '../assets/weather.webp';
-import restaurant from '../assets/restaurant.webp';
-import planted from '../assets/planted.webp';
+import weather from '../assets/weather.png';
+import restaurant from '../assets/restaurant.png';
+import planted from '../assets/planted.png';
 /* import food from '../assets/food.png'; */
 import joke from '../assets/joke.png';
 import ScrollAnimation from 'react-animate-on-scroll';
