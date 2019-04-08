@@ -24,7 +24,7 @@ overflow: hidden;
         height: 100%;
         margin:20px 0;
         background-color: transparent;
-        overflow: auto;
+        
         
 
 
@@ -36,7 +36,7 @@ overflow: hidden;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     text-align: center;
-    
+
 }
 
 .flipcard_front,
@@ -75,6 +75,9 @@ overflow: hidden;
         justify-content: center;
         border-top:3px solid $primary;
         height:150px;
+        @include mobile-large{
+            display: none;
+        }
         h3{
             font-family: $font1;
             text-transform: uppercase;
@@ -113,6 +116,8 @@ overflow: hidden;
     transform: translate(-50%, -50%) rotateY(180deg);
     color: white;
     background: $primary; 
+
+
 }
 
 .flipcard:hover .flipcard_back {
@@ -131,6 +136,12 @@ overflow: hidden;
     overflow: auto;
     @include flexC;
     justify-content: center;
+    .flipcard_back_title{
+        display:none;
+        @include mobile-large{
+            display: block;
+        }
+    }
     p{
         color:$third;
     }

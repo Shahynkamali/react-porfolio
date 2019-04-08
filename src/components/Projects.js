@@ -3,7 +3,7 @@ import {Tabs, Tab, Grid, Cell} from 'react-mdl';
 import weather from '../assets/weather.png';
 import restaurant from '../assets/restaurant.png';
 import planted from '../assets/planted.png';
-import food from '../assets/food.png';
+/* import food from '../assets/food.png'; */
 import joke from '../assets/joke.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
@@ -31,6 +31,9 @@ if(this.state.activeTab === 0){
                     </div>
                     <div className="flipcard_back">
                         <div className="flipcard_description">
+                            <div className="flipcard_back_title">
+                                <h3>Weather App</h3>
+                            </div>
                         <p>The application is a small weather app that fetches data from the Weather API and displays it on the UX.</p>
                         <div className="flipcard_actions">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/Weather-App"><i className="fab fa-github tooltip" ></i></a>
