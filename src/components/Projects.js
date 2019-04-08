@@ -22,7 +22,7 @@ if(this.state.activeTab === 0){
                     <div className="flipcard_front">
                         <div className="flipcard_front_background">
                             <div className="flipcard_front_image">
-                                <img src={weather} alt=""/>
+                                <img src={weather} alt="screenshot of the weather app "/>
                             </div>
                             <div className="flipcard_front_title">
                                 <h3>Weather App</h3>
@@ -47,7 +47,7 @@ if(this.state.activeTab === 0){
                     <div className="flipcard_front">
                         <div className="flipcard_front_background">
                             <div className="flipcard_front_image">
-                                <img src={joke} alt=""/>
+                                <img src={joke} alt="screenshot of the joke app website"/>
                             </div>
                             <div className="flipcard_front_title">
                                 <h3>Joke App</h3>
@@ -73,7 +73,7 @@ if(this.state.activeTab === 0){
                     <div className="flipcard_front">
                         <div className="flipcard_front_background">
                             <div className="flipcard_front_image">
-                                <img src={restaurant} alt=""/>
+                                <img src={restaurant} alt="screenshot of the restaurant app website"/>
                             </div>
                             <div className="flipcard_front_title">
                                 <h3>Restaurant App</h3>
@@ -107,7 +107,7 @@ if(this.state.activeTab === 0){
                         <h3>Joke Supply App</h3>
                     </div>
                         <div className="flipcard_front_background">
-                        <img src={restaurant} alt=""/>
+                        <img src={restaurant} alt="screenshot of a the restaurant app"/>
                     </div>
                     </div>
                     <div className="flipcard_back">
@@ -131,7 +131,7 @@ if(this.state.activeTab === 0){
                     <div className="flipcard_front">
                         <div className="flipcard_front_background">
                             <div className="flipcard_front_image">
-                                <img src={planted} alt=""/>
+                                <img src={planted} alt="screenshot of the planted website"/>
                             </div>
                             <div className="flipcard_front_title">
                                 <h3>PSD Conversion</h3>
