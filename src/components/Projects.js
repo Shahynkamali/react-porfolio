@@ -56,6 +56,9 @@ if(this.state.activeTab === 0){
                     </div>
                     <div className="flipcard_back">
                         <div className="flipcard_description">
+                            <div className="flipcard_back_title">
+                                <h3>Joke App</h3>
+                            </div>
                          <p>Project that displays a daily joke, gets joke submissions and users can vote for the funniest joke. Data is stored in Firebase</p>
                         <div className="flipcard_actions">
                                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/shabora/parent-joke-project-6"><i className="fab fa-github tooltip" ></i></a>
@@ -79,6 +82,9 @@ if(this.state.activeTab === 0){
                     </div>
                     <div className="flipcard_back">
                         <div className="flipcard_description">
+                            <div className="flipcard_back_title">
+                                <h3>Restaurant App</h3>
+                            </div>
                             <p>Application that finds various restaurants in North America and stores them in a top 10 list. Data is stored in Firebase</p>
                         <div className="flipcard_actions">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/react_project_5"><i className="fab fa-github tooltip" ></i></a>
@@ -128,12 +134,15 @@ if(this.state.activeTab === 0){
                                 <img src={planted} alt=""/>
                             </div>
                             <div className="flipcard_front_title">
-                                <h3>Weather App</h3>
+                                <h3>PSD Conversion</h3>
                             </div>
                         </div>
                     </div>
                     <div className="flipcard_back">
                         <div className="flipcard_description">
+                            <div className="flipcard_back_title">
+                                <h3>PSD Conversion</h3>
+                            </div>
                             <p>PSD Designer project creating a multi page website using CSS Grid and Flexbox</p>
                         <div className="flipcard_actions">
                                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Shahynkamali/shahyn-kamali-project-two"><i className="fab fa-github tooltip" ></i></a>

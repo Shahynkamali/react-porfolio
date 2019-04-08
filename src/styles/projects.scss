@@ -136,14 +136,25 @@ overflow: hidden;
     overflow: auto;
     @include flexC;
     justify-content: center;
+    @include mobile-large{
+        justify-content: space-evenly;
+    }
     .flipcard_back_title{
         display:none;
         @include mobile-large{
             display: block;
+            h3 {
+                font-family: $font1;
+                text-transform: uppercase;
+                color: $third;
+                margin: 0;
+
+            }
         }
     }
     p{
         color:$third;
+        font-family: $font2;
     }
     .flipcard_actions{
         @include flexR;
